@@ -1,0 +1,22 @@
+table {
+    /* Xóa double-line của border */
+    border-collapse: collapse;
+    /* Độ rộng của bảng */
+    width: 100%;
+}
+table, td, th {
+    /* Chọn màu , kích thước , kiểu border */
+    border: 1px solid black;
+}
+
+th {
+    /* Độ cao của bảng */
+    height: 50px;
+    /* Căn chỉnh chữ trong bảng */
+    text-align: left;
+    /* Căn chỉnh theo chiều ngang */
+    vertical-align: bottom;
+    /* Điều chỉnh khoảng cách giữa đường viền và nội dung trong bảng */
+    padding: 15px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
