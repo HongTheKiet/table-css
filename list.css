@@ -1,0 +1,48 @@
+/* Tạo các đầu mục khác nhau trong danh sách */
+ul.a { 
+    list-style-type: circle; 
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+/* Tạo các đầu mục bằng hình ảnh */
+ul {
+    list-style-image: url('http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png');
+}
+/* Lùi dòng các mục trong danh sách */
+ul.a {list-style-position:inside;}
+ul.b {list-style-position:outside;}
+/* Thuộc tính rút gọn danh sách */
+ul {
+    list-style: square inside url("http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png");
+}
+/* Kiểu danh sách và màu sắc */
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
